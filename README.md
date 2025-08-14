@@ -1,11 +1,9 @@
-### Ethereum Middle client Concept, Modular Ethereum With Extensions; An L1-Adjacent Overlay Network for Verifiable Off-Chain Computation on Ethereum.
+### Ethereum’s Function-as-a-Service Layer (eFaaS)
 
-A standard interface for adding custom logics/extensions to Ethereum nodes with no concensus layer change, no hard fork, no L2!
+a decentralized, verifiable, serverless runtime for Ethereum, allowing developers to run functions in zkWASM off-chain and prove results on-chain. This reduces L1 bloat, enables new capabilities, and unifies off-chain computation standards
 
+it offers a standard interface for developers to deploy custom logic as Verifiable Functions that can be executed off-chain with cryptographic proof, all without consensus changes, hard forks, or the complexity of managing L2 infrastructure.
 
-it's a protocol-adjacent layer introducing a new type of ethereum clients with a new set of API endponts along side a custom transaction type with a unified p2p sub-pool that interacts directly with ethereum main public mempool each node on this network of new clients can have itsown set of Extensions.
-
-I define Extensions as protocol-aware customizable components , that can be used to perform complex computations and validations that would be costly for the EVM and on the other hand not reasonable to do a hardfork for, an example of such computations could be L2 Sequencers, ERC-4337 Bundlers, etc.
 
 ![Untitled Diagram drawio (1)](https://github.com/user-attachments/assets/a76e0ebf-96c4-487f-95b5-303b1ce4fe00) Fig. 1
 
