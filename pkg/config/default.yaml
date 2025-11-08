@@ -1,0 +1,19 @@
+node:
+  id: ""
+  data_dir: "./data"
+  listen_addr: "0.0.0.0:8080"
+  log_level: "info"
+
+ethereum:
+  rpc_endpoint: "https://rpc.sepolia.org"
+  private_key: ""
+
+p2p:
+  listen_port: 30303
+  bootstrap_nodes: []
+
+container:
+  runtime: "docker"
+
+monitor:
+  interval: "30s"
